@@ -6,7 +6,7 @@ file_path = "categorized_stocks_data_industry_standards.xlsx"
 df = pd.read_excel(file_path)
 
 # Sidebar for user inputs
-st.sidebar.header("PredictRAm Stock Filter")
+st.sidebar.header("PredictRAM Stock Filter")
 st.sidebar.header("Filter Options")
 
 # Dropdown for Industry Sector
@@ -36,5 +36,6 @@ filtered_df = df[(df['Industry_Sector'] == selected_sector) &
                  (df['Dividend_Yield'] >= dividend_yield_range[0]) & (df['Dividend_Yield'] <= dividend_yield_range[1])]
 
 # Display results
-st.header("Filtered Results")
+st.header("PredictRAM Stock Filtered App")
+st.header("PredictRAM Stock Filtered App")
 st.write(filtered_df)
