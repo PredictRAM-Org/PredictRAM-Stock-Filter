@@ -36,6 +36,7 @@ filtered_df = df[(df['Industry_Sector'] == selected_sector) &
                  (df['Dividend_Yield'] >= dividend_yield_range[0]) & (df['Dividend_Yield'] <= dividend_yield_range[1])]
 
 # Display results
+st.image("png_2.3-removebg-preview.png", width=400)
 st.header("PredictRAM Stock Filtered App")
 st.header("Filter Results")
 st.write(filtered_df)
