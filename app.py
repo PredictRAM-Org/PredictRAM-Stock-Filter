@@ -24,7 +24,7 @@ pb_ratio_range = st.sidebar.slider("Select P/B Ratio Range", 0, 1080, (0, 1080))
 eps_range = st.sidebar.slider("Select EPS Range", -464.16, 3982.57, (-464.16, 3982.57))
 
 # Slider for Dividend Yield
-dividend_yield_range = st.sidebar.slider("Select Dividend Yield Range", 0, 0.271, (0, 0.271))
+dividend_yield_range = st.sidebar.slider("Select Dividend Yield Range", 0, 0.271, (0, 0.2))
 
 # Apply filters to the dataframe
 filtered_df = df[(df['Industry_Sector'] == selected_sector) &
