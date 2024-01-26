@@ -37,5 +37,5 @@ filtered_df = df[(df['Industry_Sector'] == selected_sector) &
 
 # Display results
 st.header("PredictRAM Stock Filtered App")
-st.header("PredictRAM Stock Filtered App")
+st.header("Filter Results")
 st.write(filtered_df)
