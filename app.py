@@ -6,6 +6,7 @@ file_path = "categorized_stocks_data_industry_standards.xlsx"
 df = pd.read_excel(file_path)
 
 # Sidebar for user inputs
+st.sidebar.header("PredictRAm Stock Filter")
 st.sidebar.header("Filter Options")
 
 # Dropdown for Industry Sector
